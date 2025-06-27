@@ -32,7 +32,7 @@
                 <name>Shengkun (Bryson) Tang</name>
               </p>
               <p>Welcome to my website~ My name is Shengkun Tang. You can call me Bryson for short. 
-                Currently, I am a first-year PhD student of Machine Learning in <a href="https://mbzuai.ac.ae/">MBZUAI</a>, under the supervision of <a href="https://zhiqiangshen.com/">Prof. Zhiqiang Shen</a>. 
+                Currently, I am a research intern in Alibaba Qwen Team. Besides, I am a PhD student of Machine Learning in <a href="https://mbzuai.ac.ae/">MBZUAI</a>, under the supervision of <a href="https://zhiqiangshen.com/">Prof. Zhiqiang Shen</a>. 
                 During my gap year, I had a wonderful time as an research assistant in <a href="https://github.com/IST-DASLab"> DASLab</a> in <a href="https://ista.ac.at/en/home/">ISTA </a>, working with <a href="https://daslab.ista.ac.at/">Prof. Dan Alistarh</a>.
                 Besides, I had close collaboration with <a href="https://dongkuanx27.github.io/">Prof. Dongkuan Xu</a> (NCSU) and <a href="https://yaqingwang.github.io/">Dr. Yaqing Wang</a> (Google DeepMind), working on efficent multi-modal models.
                 I finished B.E. in <a href="https://rsgis.whu.edu.cn/">Remote Sensing</a> at <a href="https://www.whu.edu.cn/">Wuhan University </a>, under the supervision of <a href="https://www.scholat.com/jianyao">Prof. Jian Yao</a> and <a href="http://jszy.whu.edu.cn/suxin1/en/index.htm">Prof. Xin Su</a>.
@@ -57,6 +57,12 @@
           <heading>News</heading>
         <tr>
           <div class="list scroll">
+            <p>
+              06/2025: one paper is accpeted by ICCV 2025. Congraduations to Bowei!
+            </p>
+            <p>
+              06/2025: Start the research internship in Qwen pretraining team!
+            </p>
             <p>
               04/2025: one paper is accepted by 2nd Re-Align Workshop in ICLR 2025! Congraduations to Xuanjie and Cong!
             </p>
@@ -83,7 +89,7 @@
         </tr>
       </tbody></table>
         <br>
-        <br>
+        <!-- <br> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <heading>Research</heading>
           <tr>
@@ -117,7 +123,31 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <heading>Publications</heading>
           <br>
-          <br>
+          <!-- <br> -->
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle;">
+              <br>
+              <br>
+              <br>
+                <div class="one">
+                    <img src='images/MosaicDiff.png' width="150" ></div>
+                </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle;">
+                <papertitle>MosaicDiff: Training-free Structural Pruning for Diffusion Model Acceleration Reflecting Pretraining Dynamics</papertitle>
+              </a>
+              <br>
+              <a>Bowei Guo </a>,
+              <strong>Shengkun Tang</strong>,
+              <a>Cong Zeng</a>, 
+              <a>Zhiqiang Shen</a>
+            </br>
+              <em><strong>[ICCV 2025]</strong></em> International Conference on Computer Vision, ICCV 2025
+              <br>
+              <a href="">Paper</a> 
+              <!-- <a href="https://github.com/cong-zeng/DALD">code</a>  -->
+              </td>
+            </tr>
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;">
               <br>
@@ -129,8 +159,8 @@
                 <papertitle>Do Large Language Models Perceive Orderly Number Concepts as Human?</papertitle>
               </a>
               <br>
-              <a>Xuanjie Liu </a>
-              <a>Cong Zeng</a>
+              <a>Xuanjie Liu </a>,
+              <a>Cong Zeng</a>,
               <strong>Shengkun Tang</strong>,
               <a>Ziyu Wang</a>, 
               <a>Gus Xia</a>
@@ -140,9 +170,9 @@
               <a href="https://openreview.net/pdf?id=13o9GyaPFD">Paper</a> 
               <!-- <a href="https://github.com/cong-zeng/DALD">code</a>  -->
               
-              <p>
+              <!-- <p>
               In this paper, we study how LLMs encode numbers concepts that align with human cognition and  propose a metric, orderliness, to assess how
-              number embeddings are spatially arranged across LLM layers, drawing parallels to the human mental number line.         </p>
+              number embeddings are spatially arranged across LLM layers, drawing parallels to the human mental number line.         </p> -->
               </td>
             </tr>
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
@@ -172,8 +202,8 @@
               <a href="https://arxiv.org/abs/2406.05232">arXiv</a> /
               <a href="https://github.com/cong-zeng/DALD">code</a> 
               
-              <p>
-              We propose a simple but quite effective method to improve the performance of black-box LLM detection. DALD collects a small-size data from target model and train the surrogate model to align the distribution of surrogate model and target model.            </p>
+              <!-- <p>
+              We propose a simple but quite effective method to improve the performance of black-box LLM detection. DALD collects a small-size data from target model and train the surrogate model to align the distribution of surrogate model and target model.            </p> -->
               </td>
             </tr>
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
@@ -199,8 +229,8 @@
               <br>
               <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10120.pdf">arXiv</a> /
               <a href="https://github.com/Tangshengku/AdaDiff">code</a> 
-              <p>
-                We propose a uncertainty estimation module (UEM) to decide the exiting point during diffusion model inference at each timestep. Moreover, we propose an uncertainty-aware layer-wise loss to recover the performance for early-exited model.              </p>
+              <!-- <p>
+                We propose a uncertainty estimation module (UEM) to decide the exiting point during diffusion model inference at each timestep. Moreover, we propose an uncertainty-aware layer-wise loss to recover the performance for early-exited model.              </p> -->
               </td>
             </tr>
 
@@ -230,8 +260,8 @@
             <br>
             <a href="https://arxiv.org/abs/2211.11152">arXiv</a> /
             <a href="https://github.com/OFA-Sys/OFA/tree/feature/MuE">code</a> 
-            <p>
-              We propose a novel early exiting strategy based on cascading input similarity with valid assumptions on saturation states in visual-language models, a pioneering exploration of extending early exiting selection to encoders and decoders of sequence-to-sequence architectures.              </p>
+            <!-- <p>
+              We propose a novel early exiting strategy based on cascading input similarity with valid assumptions on saturation states in visual-language models, a pioneering exploration of extending early exiting selection to encoders and decoders of sequence-to-sequence architectures.              </p> -->
             </td>
           </tr>
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
@@ -263,8 +293,8 @@
               <br>
               <a href="https://arxiv.org/abs/2103.14275">arXiv</a> /
               <a href="https://github.com/Tangshengku/DDR-Net">code</a> 
-              <p>
-                We propose a Dynamic Depth Range Network (DDR-Net) to determine the depth range hypotheses dynamically by applying a range estimation module (REM) to learn the uncertainties of range hypotheses in the former stages.              </p>
+              <!-- <p>
+                We propose a Dynamic Depth Range Network (DDR-Net) to determine the depth range hypotheses dynamically by applying a range estimation module (REM) to learn the uncertainties of range hypotheses in the former stages.              </p> -->
             </td>
           </tr>
 					
@@ -299,7 +329,7 @@
               <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 2021
               <br>
 							<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9535260">PDF</a>  
-              <p>We propose a novel deep-supervision convolutional neural network (denoted as DS-Net) for extracting building footprints from high-resolution remote sensing images.</p>
+              <!-- <p>We propose a novel deep-supervision convolutional neural network (denoted as DS-Net) for extracting building footprints from high-resolution remote sensing images.</p> -->
             </td>
           </tr>
 
@@ -345,6 +375,35 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <heading>Industrial Experience</heading>  
           <!-- <strong><heading>Undergraduate</heading></strong> -->
+           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <br>
+                <!-- <br> -->
+                <!-- <br> -->
+                <img src='images/qwen-ai9316.logowik.com.webp' width="110">
+              </div>
+              <script type="text/javascript">
+                function nerfsuper_start() {
+                  document.getElementById('nerfsuper_image').style.opacity = "1";
+                }
+
+                function nerfsuper_stop() {
+                  document.getElementById('nerfsuper_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Qwen Team, Alibaba,  06/2025 - Now </papertitle>
+              <br>
+              <!-- <br>  -->
+              Research Intern
+              <br>
+              Mentor: <a href="https://openreview.net/profile?id=~Bo_Zheng4"> Bo Zheng </a> and <a href="https://dayihengliu.github.io/">Dayiheng Liu </a>
+              
+            </td>
+          </tr>
           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
