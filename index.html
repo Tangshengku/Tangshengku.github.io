@@ -22,7 +22,7 @@
 
 <body>
 
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height:1.4;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -120,356 +120,129 @@
         </tbody></table>
         <br>
         <!-- Publications -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%; border-collapse:collapse; margin:auto;">
+          <tbody>
           <heading>Publications</heading>
-          <br>
-          <!-- <br> -->
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <br>
-              <br>
-              <br>
-                <div class="one">
-                    <img src='images/MosaicDiff.png' width="150" ></div>
-                </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-                <papertitle>MosaicDiff: Training-free Structural Pruning for Diffusion Model Acceleration Reflecting Pretraining Dynamics</papertitle>
-              </a>
-              <br>
-              <a>Bowei Guo </a>,
-              <strong>Shengkun Tang</strong>,
-              <a>Cong Zeng</a>, 
-              <a>Zhiqiang Shen</a>
-            </br>
-              <em><strong>[ICCV 2025]</strong></em> International Conference on Computer Vision, ICCV 2025
-              <br>
-              <a href="">Paper</a> 
-              <!-- <a href="https://github.com/cong-zeng/DALD">code</a>  -->
-              </td>
-            </tr>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <br>
-                <div class="one">
-                    <img src='images/number_line.png' width="150" ></div>
-                </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-                <papertitle>Do Large Language Models Perceive Orderly Number Concepts as Human?</papertitle>
-              </a>
-              <br>
-              <a>Xuanjie Liu </a>,
-              <a>Cong Zeng</a>,
-              <strong>Shengkun Tang</strong>,
-              <a>Ziyu Wang</a>, 
-              <a>Gus Xia</a>
-            </br>
-              <em><strong>[Re-Align Workshop, ICLR 2025]</strong></em> 2nd Workshop on Representational Alignment, ICLR 2025
-              <br>
-              <a href="https://openreview.net/pdf?id=13o9GyaPFD">Paper</a> 
-              <!-- <a href="https://github.com/cong-zeng/DALD">code</a>  -->
-              
-              <!-- <p>
-              In this paper, we study how LLMs encode numbers concepts that align with human cognition and  propose a metric, orderliness, to assess how
-              number embeddings are spatially arranged across LLM layers, drawing parallels to the human mental number line.         </p> -->
-              </td>
-            </tr>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-                <div class="one">
-                  <br>
-                  <br>
-                    <img src='images/DALD.png' width="160" ></div>
-                </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-                <papertitle>DALD: Improving Logits-based Detector without Logits from Black-box LLM</papertitle>
-              </a>
-              <br>
-              <a>Cong Zeng*</a>, 
-              <strong>Shengkun Tang*</strong>,
-              <a>Xianjun Yang</a>, 
-              <a>Yuanzhou Chen</a>,
-              <a>Yiyou Sun,</a>
-              <a>Yao Li</a>,
-              <a>Haifeng Chen</a>,
-              <a>Wei Cheng</a>,
-              <a>Dongkuan Xu</a>
-            </br>
-              <em><strong>[NeurIPS 2024]</strong></em> The Thirty-eighth Annual Conference on Neural Information Processing Systems
-              <br>
-              <a href="https://arxiv.org/abs/2406.05232">arXiv</a> /
-              <a href="https://github.com/cong-zeng/DALD">code</a> 
-              
-              <!-- <p>
-              We propose a simple but quite effective method to improve the performance of black-box LLM detection. DALD collects a small-size data from target model and train the surrogate model to align the distribution of surrogate model and target model.            </p> -->
-              </td>
-            </tr>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-                <div class="one">
-                  <br>
-                  <br>
-                    <img src='images/adadiff.png' width="160" ></div>
-                </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-                <papertitle>Adadiff: Accelerating diffusion models through step-wise adaptive computation</papertitle>
-              </a>
-              <br>
-              <strong>Shengkun Tang</strong>,
-              <a>Yaqing Wang</a>, 
-              <a>Caiwen Ding</a>,
-              <a>Yi Liang,</a>
-              <a>Yao Li</a>,
-              <a>Dongkuan Xu</a>
-            </br>
-              <em><strong>[ECCV 2024]</strong></em> European Conference on Computer Vision
-              <br>
-              <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10120.pdf">arXiv</a> /
-              <a href="https://github.com/Tangshengku/AdaDiff">code</a> 
-              <!-- <p>
-                We propose a uncertainty estimation module (UEM) to decide the exiting point during diffusion model inference at each timestep. Moreover, we propose an uncertainty-aware layer-wise loss to recover the performance for early-exited model.              </p> -->
-              </td>
-            </tr>
-
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle;">
-              <div class="one">
-                <br>
-                <br>
-                  <img src='images/MuE_Arc.jpg' width="160" ></div>
-              </div>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle;">
-              <papertitle>You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model</papertitle>
-            </a>
             <br>
-            <strong>Shengkun Tang</strong>,
-            <a>Yaqing Wang</a>, 
-            <a>Zhenglun Kong</a>,
-            <a>Tianchi Zhang,</a>
-            <a>Yao Li</a>,
-            <a>Caiwen Ding</a>,
-            <a>Yanzhi Wang</a>,
-            <a>Yi Liang</a>,
-            <a>Dongkuan Xu</a>
             <br>
-            <em><strong>[CVPR 2023]</strong></em> The IEEE/CVF Conference on Computer Vision and Pattern Recognition
-            <br>
-            <a href="https://arxiv.org/abs/2211.11152">arXiv</a> /
-            <a href="https://github.com/OFA-Sys/OFA/tree/feature/MuE">code</a> 
-            <!-- <p>
-              We propose a novel early exiting strategy based on cascading input similarity with valid assumptions on saturation states in visual-language models, a pioneering exploration of extending early exiting selection to encoders and decoders of sequence-to-sequence architectures.              </p> -->
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/MosaicDiff.png" width="150">
             </td>
-          </tr>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <div class="one">
-                <br>
-                <br>
-                  <img src='images/DDRNet_arc.png' width="160" ></div>
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-                <papertitle>DDR-Net: Learning Multi-Stage Multi-View Stereo With Dynamic Depth Range</papertitle>
-              </a>
-              <br><a>Puyuan Yi*</a>,
-              <strong>Shengkun Tang*</strong>, 
-              <a>Jian Yao</a>
-              <br>
-              <em>Preprint</em>, 2021
-              <br>
-              <a href="https://arxiv.org/abs/2103.14275">arXiv</a> /
-              <a href="https://github.com/Tangshengku/DDR-Net">code</a> 
-              <!-- <p>
-                We propose a Dynamic Depth Range Network (DDR-Net) to determine the depth range hypotheses dynamically by applying a range estimation module (REM) to learn the uncertainties of range hypotheses in the former stages.              </p> -->
-            </td>
-          </tr>
-					
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <br>
-                <img src='images/DSNet.png' width="160" >
-              </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
-
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Scale-robust deep-supervision network for mapping building footprints from high-resolution remote sensing images</papertitle>
-              </a>
-              <br>
-              <a>Haonan Guo</a>, 
-              <a>Xin Su</a>, 
-              <strong>Shengkun Tang</strong>,
-              <a> Bo Du</a>,
-              <a>Liangpei Zhang</a>
-              <br>
-              <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 2021
-              <br>
-							<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9535260">PDF</a>  
-              <!-- <p>We propose a novel deep-supervision convolutional neural network (denoted as DS-Net) for extracting building footprints from high-resolution remote sensing images.</p> -->
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>MosaicDiff: Training-free Structural Pruning for Diffusion Model Acceleration Reflecting Pretraining Dynamics</papertitle><br>
+              <a>Bowei Guo</a>, <strong>Shengkun Tang</strong>, <a>Cong Zeng</a>, <a>Zhiqiang Shen</a><br>
+              <em><strong>[ICCV 2025]</strong></em> International Conference on Computer Vision, ICCV 2025<br>
+              <a href="">Paper</a>
             </td>
           </tr>
 
-
-        </tbody></table>
-        <!-- Intern Experience -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- <heading>Intern Experience</heading>   -->
-          <!-- <strong><heading>Undergraduate</heading></strong> -->
-          <!-- <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <br>
-                <br>
-                <img src='images/sensetime.png' width="110">
-              </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
-
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/number_line.png" width="150" height="100">
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>SenseTime Engineering, 06/2021 - 10/2021 </papertitle>
-              <br>
-              <br> 
-              Vision Algorithm Intern Researcher 
-              <br>          
-              Project: <a href="https://www.sensetime.com/en/news-detail/51166774?categoryId=1072">SenseRobot Chess Robotic</a>, working with <a href="https://dblp.org/pid/160/6811.html">Ruodai Li</a>
-              <br>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>Do Large Language Models Perceive Orderly Number Concepts as Human?</papertitle><br>
+              <a>Xuanjie Liu</a>, <a>Cong Zeng</a>, <strong>Shengkun Tang</strong>, <a>Ziyu Wang</a>, <a>Gus Xia</a><br>
+              <em><strong>[Re-Align Workshop, ICLR 2025]</strong></em> 2nd Workshop on Representational Alignment, ICLR 2025<br>
+              <a href="https://openreview.net/pdf?id=13o9GyaPFD">Paper</a>
             </td>
-          </tr> -->
+          </tr>
 
-        </tbody></table>  
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/DALD.png" width="160">
+            </td>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>DALD: Improving Logits-based Detector without Logits from Black-box LLM</papertitle><br>
+              <a>Cong Zeng*</a>, <strong>Shengkun Tang*</strong>, <a>Xianjun Yang</a>, <a>Yuanzhou Chen</a>, <a>Yiyou Sun</a>, <a>Yao Li</a>, <a>Haifeng Chen</a>, <a>Wei Cheng</a>, <a>Dongkuan Xu</a><br>
+              <em><strong>[NeurIPS 2024]</strong></em> The Thirty-eighth Annual Conference on Neural Information Processing Systems<br>
+              <a href="https://arxiv.org/abs/2406.05232">arXiv</a> / <a href="https://github.com/cong-zeng/DALD">code</a>
+            </td>
+          </tr>
+
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/adadiff.png" width="160">
+            </td>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>Adadiff: Accelerating diffusion models through step-wise adaptive computation</papertitle><br>
+              <strong>Shengkun Tang</strong>, <a>Yaqing Wang</a>, <a>Caiwen Ding</a>, <a>Yi Liang</a>, <a>Yao Li</a>, <a>Dongkuan Xu</a><br>
+              <em><strong>[ECCV 2024]</strong></em> European Conference on Computer Vision<br>
+              <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10120.pdf">arXiv</a> / <a href="https://github.com/Tangshengku/AdaDiff">code</a>
+            </td>
+          </tr>
+
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/MuE_Arc.jpg" width="160">
+            </td>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model</papertitle><br>
+              <strong>Shengkun Tang</strong>, <a>Yaqing Wang</a>, <a>Zhenglun Kong</a>, <a>Tianchi Zhang</a>, <a>Yao Li</a>, <a>Caiwen Ding</a>, <a>Yanzhi Wang</a>, <a>Yi Liang</a>, <a>Dongkuan Xu</a><br>
+              <em><strong>[CVPR 2023]</strong></em> The IEEE/CVF Conference on Computer Vision and Pattern Recognition<br>
+              <a href="https://arxiv.org/abs/2211.11152">arXiv</a> / <a href="https://github.com/OFA-Sys/OFA/tree/feature/MuE">code</a>
+            </td>
+          </tr>
+
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/DDRNet_arc.png" width="160">
+            </td>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>DDR-Net: Learning Multi-Stage Multi-View Stereo With Dynamic Depth Range</papertitle><br>
+              <a>Puyuan Yi*</a>, <strong>Shengkun Tang*</strong>, <a>Jian Yao</a><br>
+              <em>Preprint</em>, 2021<br>
+              <a href="https://arxiv.org/abs/2103.14275">arXiv</a> / <a href="https://github.com/Tangshengku/DDR-Net">code</a>
+            </td>
+          </tr>
+
+          <tr style="line-height:1.4; height:1px;">
+            <td style="padding:15px; width:25%; vertical-align:top;">
+              <img src="images/DSNet.png" width="160">
+            </td>
+            <td style="padding:15px; width:75%; vertical-align:top;">
+              <papertitle>Scale-robust deep-supervision network for mapping building footprints from high-resolution remote sensing images</papertitle><br>
+              <a>Haonan Guo</a>, <a>Xin Su</a>, <strong>Shengkun Tang</strong>, <a>Bo Du</a>, <a>Liangpei Zhang</a><br>
+              <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 2021<br>
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9535260">PDF</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
 
         <!-- Work Experience -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <heading>Industrial Experience</heading>  
-          <!-- <strong><heading>Undergraduate</heading></strong> -->
-           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <!-- <br> -->
-                <!-- <br> -->
-                <img src='images/qwen-ai9316.logowik.com.webp' width="110">
-              </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
+        <table style="width:100%; border-collapse:collapse; margin:auto;">
+  <tbody>
+    <heading>Industrial Experience</heading>  
 
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Qwen Team, Alibaba,  06/2025 - Now </papertitle>
-              <br>
-              <!-- <br>  -->
-              Research Intern
-              <br>
-              Mentor: <a href="https://openreview.net/profile?id=~Bo_Zheng4"> Bo Zheng </a> and <a href="https://dayihengliu.github.io/">Dayiheng Liu </a>
-              
-            </td>
-          </tr>
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <br>
-                <br>
-                <img src='images/sensetime.png' width="110">
-              </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
+   <tr style="line-height:1.4; height:1px;">
+  <td style="padding:15px; width:25%; vertical-align:middle;">
+    <img src="images/qwen-ai9316.logowik.com.webp" width="110" style="margin-top:6px;">
+  </td>
+  <td style="padding:15px; width:75%; vertical-align:middle;">
+    <papertitle>Qwen Team, Alibaba, 06/2025 - Now</papertitle><br>
+    Research Intern<br>
+    Mentor: <a href="https://openreview.net/profile?id=~Bo_Zheng4">Bo Zheng</a> and <a href="https://dayihengliu.github.io/">Dayiheng Liu</a>
+  </td>
+</tr>
 
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>SenseTime, Engineering & Intelligent Automotive Group (IAG), 06/2021 - 10/2021 & 05/2022 - 07/2023 </papertitle>
-              <br>
-              <br> 
-              Vision Algorithm Intern; System Developer
-              <br>          
-              Project: <a href="https://www.sensetime.com/en/news-detail/51166774?categoryId=1072">SenseRobot Chess Robotic</a>, working with <a href="https://dblp.org/pid/160/6811.html">Ruodai Li</a>
-              <br>
-              Project: Large-Scale Self-Driving System Development
-              <br>
-              
-            </td>
-          </tr>
-          <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <br>
-                <br>
-                  <img src='images/sensetime.png' width="110"></div>
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
+<tr style="line-height:1.4; height:1px;">
+  <td style="padding:15px; width:25%; vertical-align:top;">
+    <img src="images/sensetime.png" width="110" style="margin-top:12px;">
+  </td>
+  <td style="padding:15px; width:75%; vertical-align:top;">
+    <papertitle>SenseTime, Engineering & Intelligent Automotive Group (IAG), 06/2021 - 10/2021 & 05/2022 - 07/2023</papertitle><br>
+    Vision Algorithm Intern; System Developer<br>
+    Project: <a href="https://www.sensetime.com/en/news-detail/51166774?categoryId=1072">SenseRobot Chess Robotic</a>, working with <a href="https://dblp.org/pid/160/6811.html">Ruodai Li</a><br>
+    Project: Large-Scale Self-Driving System Development
+  </td>
+</tr>
 
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>SenseTime, Smart City Group(SCG), 05/2022 - 10/2022</papertitle>
-              <br> 
-              <br>
-              System Developer
-              <br>          
-              Project: Perception and Fusion Develop for Guangqi Project
-              <br>
-              <p></p>
-              <p>
-                In this project, we seek to solve some issues of multi-view stereo(MVS) including edge and light changes.</p>
-            </td>
-          </tr> -->
+  </tbody>
+</table>
 
-        </tbody></table>
+
 
         <!-- Contest -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -512,90 +285,15 @@
 
         </tbody></table>  
 
-        <!-- Projects -->
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <heading>Projects</heading>
-          <br>
-          <br>
-          <strong><heading>Undergraduate</heading></strong>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                  <img src='images/MVS_horse.jpg' width="160"></div>
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2103.14275">
-                <papertitle>Multi-View Stereo in Real Scenes</papertitle>
-              </a>, 06/2020 - 03/2021
-              <br>
-              <br><a>Puyuan Yi*</a>,
-              <strong>Shengkun Tang*</strong>, 
-              <a href="https://www.scholat.com/jianyao">Jian Yao</a></br>
-              
-              <a href="https://arxiv.org/abs/2103.14275">arXiv</a> /
-              <a href="https://github.com/Tangshengku/DDR-Net">code</a> 
-              <p></p>
-              <p>
-                In this project, we seek to solve some issues of multi-view stereo(MVS) including edge and light changes.</p>
-            </td>
-          </tr>
-					
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <br>
-                <img src='images/SAR.jpeg' width="160">
-              </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
-
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Synthetic Aperture Radar(SAR) Landmark Detection via Deep Learning and Dataset Constrcution </papertitle>, 09/2019 - 09/2021
-              <br>
-              <br>
-              <strong>Shengkun Tang</strong>,
-              <a href="http://jszy.whu.edu.cn/suxin1/en/index.htm">Xin Su</a>, 
-              Ziyi Zhang,
-              Xue Han,
-              Fengxing Yang,
-              Hulan Ayi
-              <br>
-              <p>This project aims to detect landmarks in SAR image. The deep learning methods of optical images fail in SAR images. We seek to fill the gap between radar and optical images.  </p>
-            </td>
-          </tr>
-
-
-        </tbody></table> -->
-				<!-- Professional Services -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <!-- Professional Services -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0"><tbody>
           <tr>
             <td>
               <heading>Professional Services</heading>
             </td>
           </tr>
         </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-					
+        <table width="100%" align="center" border="0" cellpadding="5"><tbody>
           <tr>
             <td width="75%" valign="center">
               <li>
